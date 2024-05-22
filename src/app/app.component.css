@@ -1,0 +1,29 @@
+/* .box {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+} */
+
+.btn-base {
+    background-color: transparent;
+    height: 40px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    justify-content: center;
+    transition: .5s;
+    margin-top: 10px;
+}
+.btn {
+    background-color: orange;
+}
+
+.btn:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
